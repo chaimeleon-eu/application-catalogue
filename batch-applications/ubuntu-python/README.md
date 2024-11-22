@@ -18,12 +18,12 @@ Examples:
 ## Authors
 I3M-UPV
 
-## License
-https://github.com/chaimeleon-eu/workstation-images/blob/main/LICENSE
+## Contact info
+https://github.com/chaimeleon-eu/workstation-images/issues
 
 ## URL
 Public dockerfile repository:
 https://github.com/chaimeleon-eu/workstation-images/tree/main/ubuntu-python
 
-## Contact info
-https://github.com/chaimeleon-eu/workstation-images/issues
+## License
+https://github.com/chaimeleon-eu/workstation-images/blob/d3277c13805ab8d5998eeaf5623981ab9eff5442/LICENSE

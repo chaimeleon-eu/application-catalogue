@@ -83,14 +83,17 @@ The **`select_scope_sequences`** function performs the following steps:
 7. Generates an Excel report containing information about the selected sequences, corrupted files, missing files, and timepoints.
 
 ## Authors
-This script was developed and continuously improved with new features by [Pedro Miguel Martinez & Adrian Galiana]. Reviewed and adapted to Airflow pipelines by [Carina Soler]. All done at [GIBI230] Research Group Environment, at [La Fe Health Research Institute - LA FE HOSPITAL VALENCIA].
-
-## License
-This project is under licensing process at [IISLAFE].
-
-## URL
-Private dockerfile repository:
-https://github.com/casopon/dicom_file_integrity_checker
+This script was developed and continuously improved with new features by [Pedro Miguel Martinez & Adrian Galiana]. 
+Reviewed and adapted to Airflow pipelines by [Carina Soler]. 
+All done at [GIBI230] Research Group Environment, at [La Fe Health Research Institute - LA FE HOSPITAL VALENCIA].
 
 ## Contact info
 ??
+
+## URL
+Private\* dockerfile repository:
+https://github.com/casopon/dicom_file_integrity_checker  
+\* You will see error 404 if you don't have permissions to access.
+
+## License
+This project is under licensing process at [IISLAFE].

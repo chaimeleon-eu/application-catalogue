@@ -1,7 +1,7 @@
 ---
 name: "📦 Request for addition of a new application"
 about: "Do you want your application to be added in the catalogue?"
-title: 'Add application: '
+title: 'Add application: <your application name>'
 labels: 'add-application'
 assignees: ''
 
@@ -9,15 +9,17 @@ assignees: ''
 
 <!-- Please replace the example content for each section and remove the comments like this. -->
 
-# my-application  <!-- replace here with your application image name, please use lowercase letters, numbers and hyphens -->
+# my-application  <!-- replace here with your application image name, please use only lowercase letters, numbers and hyphens -->
 
 ## Description
-<!-- Replace here with a description of the image/application, the utilities, the tools or features included. -->
-This is a tool to do something a dataset...
+<!-- Replace here with a description of the application, the features included... -->
+This is a tool to do something with a dataset...
 
 ## Usage
-<!-- Replace here with the parameters accepted, those which the user can put after the "--" in the `jobman submit` command 
-     (they will be appended to the `ENTRYPOINT` of your image). -->
+<!-- Modify this example putting the name of your application and the parameters accepted, 
+     those which the user can put after the "--" in the `jobman submit` command 
+     (they will be appended to the `ENTRYPOINT` of your image). 
+     The input and output directories are the most common, but you can change or add any other. -->
 
 `jobman submit -i my-application -- <INPUT_DIR> <OUTPUT_DIR>`
   
@@ -40,21 +42,23 @@ otherwise the results will be lost after the end of the job.
 
 ## Authors
 James Gordon   <!-- You can put here your name, nick and/or your organization -->
+grycap.upv.es
 
 ## Contact info
-<!-- Replace here with an email address or publicly accessible contact form to allow the user report issues or request missing documentation required for usage. -->
+<!-- Replace this example with an email address or publicly accessible contact form to allow the user report issues or request missing documentation required for usage. -->
 james@email.com
 https://github.com/chaimeleon-eu/workstation-images/issues
 
-## License
-https://github.com/chaimeleon-eu/workstation-images/blob/main/LICENSE  <!-- You should put here a link to the public license document of your application (if any). -->
-
-<!-- If it is a custom license and the repository is private you can copy the license text. 
-     Otherwise you shouldn't do it, just put the link to not make this text too long (it will be included as output of `jobman image-details`). -->
-
 ## URL
-<!-- Replace here with the link to the public or private repository where you put the Dockerfile and all the dependecies available for us to build the image. -->
+<!-- Replace this example with the link to the public or private repository where you put the Dockerfile and all the dependecies available for us to build the image. -->
 Public dockerfile repository:
 https://github.com/chaimeleon-eu/workstation-images/tree/main/ubuntu-python
 
+## License
+<!-- Replace here with the URL to the license document of your application.
+     Usually it's a file in the code repository URL indicated in the previous section. 
+     If there is not any license just put "None".  -->
+https://github.com/chaimeleon-eu/workstation-images/blob/d3277c13805ab8d5998eeaf5623981ab9eff5442/LICENSE
+
+<!-- If it is a file in private repository, it will be copied (only that file) to the Application Catalogue to make it accesible to the users. -->
 

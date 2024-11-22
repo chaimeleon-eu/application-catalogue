@@ -12,7 +12,7 @@ assignees: ''
 - Image name:   <!--- Please state here the application's image name that this update is referring to. -->
 - New version: None  <!--- Replace this with the new version of the image only if changes require to rebuild it. -->
 
-<!--- State all information or metadata that needs to be changed, added or removed for each chapter. -->
+<!--- State below all information or metadata that needs to be changed, added or removed for each chapter. -->
 
 - Description: 
 No changes
@@ -32,6 +32,7 @@ No changes
 - URL:
 No changes
 
+
 **Additional context:**
 
-<!-- Add any other context or additional information about why this change is important. -->
+<!-- You can add here any other context or additional information about why this change is important. -->

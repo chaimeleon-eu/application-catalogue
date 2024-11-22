@@ -19,10 +19,10 @@ The available docker images with applications to launch are listed with the comm
 | [ubuntu-python-tensorflow](batch-applications/ubuntu-python-tensorflow/README.md)              | UPV                            | Public      |
 | [ubuntu-python-pytorch](batch-applications/ubuntu-python-pytorch/README.md)                    | UPV                            | Public      |
 | [mri_harmonization](batch-applications/mri_harmonization/README.md)                            | Quibim                         | Private     |
-| [Deepfakes Detector](https://github.com/chaimeleon-eu/image_batch_deepfakesdetector) (private repository) from BGU
-| [Lung CT Harmonisation](https://github.com/chaimeleon-eu/image_batch_lungCT_harmonisation) (private repository) from Imperial
-| [Non-imaging Data Augmentation](https://github.com/chaimeleon-eu/image_batch_non-imaging-aug) from Imperial
-| [SHAP Explainability Radiomics](https://github.com/chaimeleon-eu/image_batch_shap_explainability_radiomics) from University of Maastricht
+| [deepfakes-detector](batch-applications/deepfakes-detector/README.md)                          | BGU                            | Private     |
+| [harmonisation-lungct](batch-applications/harmonisation-lungct/README.md)                      | Imperial                       | Private     |
+| [privacypreserver](batch-applications/privacypreserver/README.md)                              | Imperial                       | Public      |
+| [shap-exp-tool](batch-applications/shap-exp-tool/README.md)                                    | University of Maastricht       | Public      |
 
 ### Testing
 | Image name (link to description)                                                               | Author                         | Dockerfile  |
@@ -37,14 +37,14 @@ The available docker images with applications to launch are listed with the comm
 ## Interactive applications
 These applications appear in the catalog of applications to deploy.
 
-| Helm chart name (link to description)                  | Author               | Dockerfile, helm chart |
-|:-------------------------------------------------------|:---------------------|:-----------------------|
-| [desktop-tensorflow](desktop-tensorflow/README.md)     | UPV                  | Public                 |
-| [jupyter-tensorflow](jupyter-tensorflow/README.md)     | UPV                  | Public                 |
-| [desktop-pytorch](desktop-pytorch/README.md)           | UPV                  | Public                 |
-| [jupyter-pytorch](jupyter-pytorch/README.md)           | UPV                  | Public                 |
-| [chaimeleon-superset](chaimeleon-superset/README.md)   | Bahia Software       | Public                 |(https://github.com/chaimeleon-eu/helm-chart-superset)
-| [analytic-engine](analytic-engine/README.md)           | Bahia Software       | Private                |(https://github.com/chaimeleon-eu/analytical-engine)
+| Helm chart name (link to description)                                           | Author               | Dockerfile, helm chart |
+|:--------------------------------------------------------------------------------|:---------------------|:-----------------------|
+| [desktop-tensorflow](interactive-applications/desktop-tensorflow/README.md)     | UPV                  | Public                 |
+| [jupyter-tensorflow](interactive-applications/jupyter-tensorflow/README.md)     | UPV                  | Public                 |
+| [desktop-pytorch](interactive-applications/desktop-pytorch/README.md)           | UPV                  | Public                 |
+| [jupyter-pytorch](interactive-applications/jupyter-pytorch/README.md)           | UPV                  | Public                 |
+| [chaimeleon-superset](interactive-applications/chaimeleon-superset/README.md)   | Bahia Software       | Public                 |
+| [analytic-engine](interactive-applications/analytic-engine/README.md)           | Bahia Software       | Private                |
 
 
 ## Request to add or update an application
@@ -56,6 +56,6 @@ To request the addition or update of an application choose one of the following 
    and fill in the requested information.
  - [Fork](https://github.com/chaimeleon-eu/application-catalogue/fork) this repository,  
    add a new subdirectory in `batch-applications` or in `interactive-applications` with the name of the image for your application,  
-   add a `README.md` file (use the [template](.github/ISSUE_TEMPLATE/01_add-new-application.md) or simply take it from other application as an example) 
+   add a `README.md` file (use the [template](.github/ISSUE_TEMPLATE/01_add-new-application.md) or simply take it from other application as an example)  
    and submit a pull request with your addition. 
 
