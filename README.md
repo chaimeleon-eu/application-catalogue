@@ -18,10 +18,11 @@ The available docker images with applications to launch are listed with the comm
 | [ubuntu-python](batch-applications/ubuntu-python/README.md)                                    | UPV                            | Public      |
 | [ubuntu-python-tensorflow](batch-applications/ubuntu-python-tensorflow/README.md)              | UPV                            | Public      |
 | [ubuntu-python-pytorch](batch-applications/ubuntu-python-pytorch/README.md)                    | UPV                            | Public      |
-| [mri_harmonization](batch-applications/mri_harmonization/README.md)                            | Quibim                         | Private     |
 | [deepfakes-detector](batch-applications/deepfakes-detector/README.md)                          | BGU                            | Private     |
-| [harmonisation-lungct](batch-applications/harmonisation-lungct/README.md)                      | Imperial                       | Private     |
-| [privacypreserver](batch-applications/privacypreserver/README.md)                              | Imperial                       | Public      |
+| [mri_harmonization](batch-applications/mri_harmonization/README.md)                            | Quibim                         | Private     |
+| [harmonisation-lungct](batch-applications/harmonisation-lungct/README.md)                      | Imperial College London        | Private     |
+| [prostate-mr-harmonisation](batch-applications/prostate-mr-harmonisation/README.md)            | Imperial College London        | Private     |
+| [privacypreserver](batch-applications/privacypreserver/README.md)                              | Imperial College London        | Public      |
 | [shap-exp-tool](batch-applications/shap-exp-tool/README.md)                                    | University of Maastricht       | Public      |
 
 ### Testing
