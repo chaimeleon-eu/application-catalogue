@@ -24,6 +24,8 @@ The available docker images with applications to launch are listed with the comm
 | [prostate-mr-harmonisation](batch-applications/prostate-mr-harmonisation/README.md)            | Imperial College London        | Private     |
 | [privacypreserver](batch-applications/privacypreserver/README.md)                              | Imperial College London        | Public      |
 | [shap-exp-tool](batch-applications/shap-exp-tool/README.md)                                    | University of Maastricht       | Public      |
+| [extract-info-dataset](batch-applications/extract-info-dataset/README.md)                      | UPV                            | Public      |
+
 
 ### Testing
 | Image name (link to description)                                                               | Author                         | Dockerfile  |
