@@ -23,10 +23,10 @@ Note the output directory path should be any within the persistent-home, which i
 otherwise the results will be lost after the end of the job. 
 
 ## Authors
-Imperial
+Yang Nan, Imperial College London
 
 ## Contact info
-??
+nandayanger@gmail.com
 
 ## URL
 Private\* dockerfile repository:
