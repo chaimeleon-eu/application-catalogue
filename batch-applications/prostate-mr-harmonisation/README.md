@@ -24,10 +24,11 @@ which is shared between all desktops and jobs created by the user,
 otherwise the results will be lost after the end of the job. 
 
 ## Authors
-Yang Nan Imperial College London
+Yang Nan  
+Imperial College London
 
 ## Contact info
-nandayanger@gmail.com
+nandayanger@gmail.com  
 https://github.com/chaimeleon-eu/image_batch_ProstateMR_harm_IC/issues
 
 ## URL

@@ -5,24 +5,25 @@ AI based tool that performs intensity harmonization in MRI images, and resolutio
 
 ## Usage
 
-`jobman submit -i mri_harmonization -- <INPUT_DIR> <OUTPUT_DIR> <MODEL>`
+`jobman submit -i mri_harmonization -- <INPUT_PATH> <OUTPUT_DIR> <MODEL> <INPUT_TYPE>`
   
-The application accepts 3 parameters:
- - The path to the input directory with DICOM files
+The application accepts 4 parameters:
+ - The path to the input file or directory with DICOM files
  - The output directory where harmonized image will be saved.
  - The model to use (options: `prostate`, `breast`, `rectum`, `lung`)
+ - The type of input (options: `file`, `directory`)
  
 Example:  
   ```
     jobman submit -i mri_harmonization -- ~/datasets/87f3be56-4725-45c3-9baa-d338de530f73/patient01/ \
                                           ~/persistent-home/results_hamonization/ \
-                                          prostate
+                                          prostate directory
   ```
 If you want to accelerate the process with a GPU, you must use the proper tag in the image (`:latest-cuda`) and add a resource flavor with GPU (for example `-r small-gpu`):  
   ```
     jobman submit -i mri_harmonization:latest-cuda -r small-gpu -- ~/datasets/87f3be56-4725-45c3-9baa-d338de530f73/ \
                                                                    ~/persistent-home/results_harmonization/ \
-                                                                   prostate
+                                                                   prostate directory
   ``` 
 Note the output directory path should be any within the persistent-home, which is shared between all desktops and jobs created by the user, 
 otherwise the results will be lost after the end of the job. 
