@@ -27,8 +27,7 @@ The available docker images with applications to launch are listed with the comm
 | [shap-exp-tool](batch-applications/shap-exp-tool/README.md)                                         | University of Maastricht       | Public      |
 | [extract-info-dataset](batch-applications/extract-info-dataset/README.md)                           | UPV                            | Public      |
 
-
-### Testing
+#### Testing
 | Image name (link to description)                                                               | Author                         | Dockerfile  |
 |:-----------------------------------------------------------------------------------------------|:-------------------------------|:------------|
 | [dicom-file-integrity-checker](batch-applications/dicom-file-integrity-checker/README.md)      | IIS La Fe                      | Private     |
@@ -36,6 +35,11 @@ The available docker images with applications to launch are listed with the comm
 | [t2w-prostate-segmentation-tool](batch-applications/t2w-prostate-segmentation-tool/README.md)  | Quibim                         | Private     |
 | [mammography-density-segmenter](batch-applications/mammography-density-segmenter/README.md)    | ITI                            | Private     |
 
+#### Imported from EUCAIM
+| Image name (link to description)                                                                                                         | Author                 | Dockerfile  |
+|:-----------------------------------------------------------------------------------------------------------------------------------------|:-----------------------|:------------|
+| [n4filter](https://github.com/EUCAIM/upv-node-workstation-images/blob/main/batch-applications/n4filter/README.md)                        | FORTH                  | Public      |
+| [bio_intensity_norm](https://github.com/EUCAIM/upv-node-workstation-images/blob/main/batch-applications/bio_intensity_norm/README.md)    | FORTH                  | Public      |
 
 
 ## Interactive applications
